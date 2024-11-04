@@ -1,0 +1,10 @@
+.vscode/
+dumpy/
+node_modules/
+public/
+views/
+
+.env
+
+.json
+.tailwind.config.js
