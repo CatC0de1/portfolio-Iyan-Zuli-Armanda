@@ -1,0 +1,48 @@
+.end {
+  color: #647488;
+  padding: 100px;
+  padding-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+  
+.top {
+  padding: 10px 100px;
+}
+  
+.top p {
+  color: white;
+  font-size: 32px;
+  font-weight: 700;
+}
+  
+.bottom {
+  border-top-width: 2px;
+  padding-top: 20px;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  justify-content: center;
+}
+  
+.bottom a {
+  border-width: 3px;
+  border-radius: 9999px;
+  border-color: #647488;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+  
+.bottom svg {
+  width: 65%;
+  height: auto;
+}
+  
+.bottom a:hover {
+  border-color: #E00000;
+  background-color: #E00000;
+}

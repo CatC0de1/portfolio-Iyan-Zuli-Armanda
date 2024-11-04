@@ -1,0 +1,48 @@
+.background {
+  background-image: url('/images/coding.jpg');
+}
+
+.content-wrapper {
+  padding: 8%;
+  margin: 12%;
+  color: white;
+  backdrop-filter: blur(5px);
+  background-color: rgba(0, 0, 0, 0.2);
+  font-size: 20px;
+  border-radius: 32px;
+  text-align: justify;
+}
+  
+.title {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+
+.content-wrapper ul {
+  margin-top: 30px;
+}
+
+.content-wrapper li {
+  margin-top: 20px;
+}
+
+h2 {
+  font-weight: 600;
+}
+
+.content-wrapper p {
+  text-align: justify;
+  margin-left: 20px;
+}
+
+.content-wrapper a {
+  color: #2563eb;
+  margin-left: 20px;
+  margin-bottom: 30px;
+  text-decoration-style: solid;
+}
+
+.content-wrapper a:hover {
+  color: #3b82f6;
+}

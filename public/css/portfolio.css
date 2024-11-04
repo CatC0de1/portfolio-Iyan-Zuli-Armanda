@@ -1,0 +1,647 @@
+.main {
+  color: #0f172a;
+  text-align: justify;
+  font-size: 20px;
+  /* transition: background-color 0.3s ease, color 0.3s ease; */
+}
+
+.head {
+  padding-top: 175px;
+}
+
+.head, .about {
+  padding-bottom: 50px;
+}
+
+.head, .about, .education div {
+  padding-left: 144px;
+  padding-right: 144px;
+  padding-left: 20%;
+  padding-right: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  weight: 100%;
+  margin-bottom: 100px;
+}
+
+.head .left, .about .left, .about .right, .education .left, .education .right {
+  flex-basis: 50%;
+}
+
+.first-title {
+  color: #E00000;
+  font-weight: 800;
+}
+
+.head .left p:nth-child(2) span {
+  display: inline-block;
+  margin-left: 1px;
+  color: black;
+  font-size: 32px;
+  font-weight: 900;
+}
+
+.head .left p:nth-child(3) {
+  font-weight: 700;
+  margin-bottom: 25px;
+}
+
+.head .left p:nth-child(4) span {
+  margin-left: 0;
+  color: black;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.head .left a {
+  color: white;
+  background-color: #E00000; 
+  padding: 10px;
+  border-radius: 9999px;
+  text-align: center;
+  margin-top: 20px;
+  display: inline-block;
+  transition: background-color 0.3s ease;
+}
+
+.head .left a:hover {
+  background-color: #ff0808;
+}
+
+.head .right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-basis: 50%;
+  position: relative;
+  flex-basis: 50%;
+}
+
+.head .right img:nth-child(1) {
+  position: absolute;
+  top: 35%; 
+  left: 50%; 
+  transform: translate(-50%, -50%); 
+  z-index: -10;
+  width: 450px;
+  height: auto;
+}
+
+.head .right img:nth-child(2) {
+  position: relative;
+  width: 400px;
+  height: auto;
+  border-radius: 10%;
+}
+
+.about {
+  padding-top: 150px;
+}
+
+.about .left {
+  margin-right: 20px;
+}
+
+.about .left p:nth-child(2), .education p:nth-child(2), .certificate p:nth-child(2), .project p:nth-child(2), .contact p:nth-child(2) {
+  font-size: 32px;
+  color: black;
+  font-weight: 700;
+  text-align: left;
+}
+
+.certificate a:nth-child(2), .project a:nth-child(2) {
+  font-size: 32px;
+  color: black;
+  font-weight: 700;
+}
+
+.about .left p:nth-child(2), .about .right p:nth-child(1) {
+  margin-bottom: 20px;
+} 
+
+.about .left p:nth-child(4), .about .right p:nth-child(3) {
+  margin-top: 15px;
+}
+
+.about .right {
+  margin-left: 20px;
+  margin-top: 40px;
+}
+
+.about .right p:nth-child(1), .education .right h1 {
+  font-size: 32px;
+  color: black;
+}
+
+.about .right div {
+  margin-top: 15px;
+  display: flex;
+}
+
+.about .right div svg{
+  margin-right: 25px;
+  width: 35px;
+  height: auto;
+  transition: fill 0.3s ease;
+}
+
+.about .right .svg1:hover {
+  fill: #EA4335;
+}
+
+.about .right .svg2:hover {
+  fill: #25D366;
+}
+
+.about .right .svg3:hover {
+  fill: #E4405F;
+}
+
+.about .right .svg4:hover {
+  fill: #181717;
+}
+
+.about .right .svg5:hover {
+  fill: #0A66C2;
+}
+
+.about .right .svg6:hover {
+  fill: #26A5E4;
+}
+
+.about .right .svg7:hover {
+  fill: #FF0000;
+}
+
+.about .left p:nth-child(3) a {
+  color: #0F172A;
+}
+
+.about .left p:nth-child(3) a:hover {
+  color: #E00000;
+}
+
+.education, .certificate, .project, .contact {
+  display: block;
+  width: 100%;
+  padding: 144px;
+  padding-left: 144px;
+  padding-right: 144px;
+}
+
+.education {
+  background-color: #fef2f2;
+}
+
+.education p:nth-child(1), .education p:nth-child(2), .project p:nth-child(1), .project p:nth-child(2), .contact p:nth-child(1), .contact p:nth-child(2) {
+  display: flex;
+  justify-content: center;
+}
+
+.education div {
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  justify-content: center;
+}
+
+.education .left {
+  justify-content: end;
+}
+
+.education .ktt {
+  width: 90%;
+  height: auto;
+  justify-items: end;
+  box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+  border-radius: 16px;
+  border-width: 5px;
+  border-color: white;
+}
+
+.education .right {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding-right: 7%;
+}
+
+.education .right .p4 {
+  margin-bottom: 5px;
+  text-align: justify;
+  font-weight: 500;
+  font-size: 20;
+  color: #0F172A;
+}
+
+.education .right h1 {
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+.education .logo-unesa {
+  width: 10%;
+  height: auto;
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  margin-top: -20px;
+  margin-left: 20px;
+}
+
+.education .p3 {
+  margin-top: 40px;
+  /* padding-left: 20%;
+  padding-right: 20%; */
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.education .p3 a {
+  color: #0F172A;
+  font-weight: 700;
+  transition: color 0.3s ease;
+}
+
+.education .p3 a:hover {
+  transition: color 0.3s ease;
+}
+
+.certificate {
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+.certificate, .end {
+  background-color: #260100;
+  color: #64748b;
+  text-align: center;
+}
+
+.certificate a:nth-child(2) {
+  color: white;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.certificate p:nth-child(3) {
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 60px;
+}
+
+.certificate div {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 40px;
+  margin-bottom: 50px;
+}
+
+.certificate img {
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 12px;
+  box-shadow: inset 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+  border-width: 5px;
+  border-color: black;
+}
+
+.certificate div span  {
+  display: flex;
+  flex-direction: row;
+}
+
+.certificate div span p {
+  flex: 1;
+}
+
+.certificate a, .project a, .about .left a {
+  font-weight: 700;
+}
+
+.certificate a:hover, .project a:hover, .about .left a {
+  color: #F00000;
+}
+
+.certificate a:nth-child(2):hover {
+  color: white;
+}
+
+.project a:nth-child(2):hover {
+  color: black;
+}
+
+.project {
+  background-color: #fef2f2;
+  text-align: center;
+}
+
+.project p:nth-child(3) {
+  padding-left: 350px;
+  padding-right: 350px;
+  padding-bottom: 60px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.project div {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  width: 60%;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+}
+
+.project img {
+  display: block;
+  max-width: object-fit;
+  height: auto;
+  box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+  border-radius: 12px;
+  border-width: 5px;
+  border-color: white;
+}
+
+.project h1 {
+  font-weight: 800;
+  margin-top: 15px;
+}
+
+.project .p4 {
+  text-align: center;
+  margin-top: 60px;
+}
+
+.contact p:nth-child(3) {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.contact form {
+  display: flex;
+  flex-direction: column;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+.contact form div {
+  margin-bottom: 20px;
+}
+
+.contact label {
+  color: #E00000;
+  font-weight: 700;
+}
+
+.contact input {
+  width: 100%;
+  border-radius: 6px;
+  background-color: #ffedd5;
+  padding: 12px;
+  /* caret-color: #E00000; */
+}
+
+.contact textarea {
+  height: 128px;
+  width: 100%;
+  border-radius: 6px;
+  background-color: #ffedd5;
+  padding: 12px;
+}
+
+.contact button {
+  margin-top: 20px;
+  width: 100%;
+  border-radius: 9999px;
+  background-color: #E00000;
+  color: white;
+  font-weight: 600;
+  padding: 12px;
+  transition: background-color 0.3s ease;
+}
+
+.contact button:hover {
+  background-color: #ff0808;
+}
+
+.end {
+  display: block;
+  width: 100%;
+  padding: 200px 144px 72px;
+  display: flex;
+  flex-direction: row;
+  /* justify-content: center; */
+}
+
+.end div:nth-child(1) {
+  flex-basis: 10%;
+}
+
+.end div:nth-child(2) {
+  flex-basis: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.end img {
+  height: 80%;
+  width: auto;
+  border-width: 5px;
+  border-top-left-radius: 9999px;
+  border-bottom-right-radius: 5000px;
+  border-top-right-radius: 1500px;
+  border-bottom-left-radius: 1500px;
+  box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+}
+
+.end div:nth-child(3) {
+  flex-basis: 30%;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  justify-content: center;
+  font-weight: 500;
+}
+
+.end div:nth-child(3) p {
+  margin-bottom: 5px;
+}
+
+.end div:nth-child(3) p:nth-child(1) {
+  font-size: 51px;
+  font-weight: 900;
+  color: white;
+}
+
+.end div:nth-child(3) p:nth-child(2) {
+  font-size: 32px;
+  font-weight: 700;
+  color: white;
+}
+
+.end div:nth-child(3) p:nth-child(3) a:hover {
+  color: blue;
+  text-decoration-line: underline;
+}
+
+.end div:nth-child(4) {
+  flex-basis: 10%;
+}
+
+.end div:nth-child(5) {
+  justify-self: end;
+  flex-basis: 30%;
+  text-align: left;
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.end div:nth-child(5) div {
+  font-size: 32px;
+  color: white;
+  text-align: left;
+  padding-left: 0;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.end div:nth-child(5) a {
+  text-align: left;
+  font-weight: 500; 
+  margin-bottom: 10px;
+}
+
+.end div:nth-child(5) a:hover {
+  color: #E00000;
+}
+
+.low {
+  text-align: center;
+  padding: 10px 100px;
+  color: #647488;
+  background-color: #260100;
+}
+
+.low div {
+  border-bottom-width: 2px;
+  padding-bottom: 20px;
+}
+
+.low a:nth-child(1) {
+  color: #06B6D4;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.low a:nth-child(2) {
+  color: #000000;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.low a:nth-child(4) {
+  color: #E00000;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+
+body.dark-mode .main {
+  background-color: #0f172a;
+  color: #FFFFFF;
+}
+
+body.dark-mode .head .left p:nth-child(2) span {
+  color: #FFFFFF;
+}
+
+body.dark-mode .head .left p:nth-child(4) span {
+  color: #CDB5E1;
+}
+
+body.dark-mode .about .left p:nth-child(2), body.dark-mode .about .right p:nth-child(1) {
+  color: #FFFFFF;
+}
+
+body.dark-mode .second-title, body.dark-mode .second-title:hover {
+  color: #FFFFFF;
+}
+
+body.dark-mode .education .right h1, body.dark-mode .education .right .p4 {
+  color: #FFFFFF;
+}
+
+body.dark-mode .about .left a, body.dark-mode .extend-link {
+  color: #9ca3af;
+}
+
+body.dark-mode .extend-link:hover {
+  color: #E00000;
+}
+
+body.dark-mode .education, body.dark-mode .project {
+  background-color: #1B0C15;
+}
+
+body.dark-mode .contact {
+  color: black;
+}
+
+body.dark-mode .contact p:nth-child(3) {
+  color: #FFFFFF;
+}
+
+body.dark-mode .head .right img:nth-child(1) {
+  z-index: 0;
+}
+
+.main {
+  transition: background-color 0.3s ease;
+}
+
+.head .left p:nth-child(2), .head .left p:nth-child(3), .head .left p:nth-child(4), .head span {
+  transition: color 0.3s ease;
+} 
+
+.about .left p:nth-child(2), .about .left p:nth-child(3), .about .left a, .about .right p:nth-child(1), .about .right p:nth-child(2), .about .right p:nth-child(3) {
+  transition: color 0.3s ease;
+}
+
+.education {
+  transition: background-color 0.3s ease;
+}
+
+.education .second-title, .education h1, .education .p4 {
+  transition: color 0.3s ease;
+}
+
+.education .right p:nth-child(3), .education .p3 {
+  transition: color 0.3s ease;
+}
+
+.project {
+  transition: background-color 0.3s ease;
+}
+
+.project .second-title, .project div, .project .p4, .project .p4 a {
+  transition: color 0.3s ease;
+}
+
+.contact p:nth-child(2), .contact p:nth-child(3) {
+  transition: color 0.3s ease;
+}
+
+.certificate a {
+  transition: color 0.3s ease;
+}
+
+.about .left a:hover, .certificate a:hover, .project .p4 a:hover {
+  transition: color 0s ease;
+}
