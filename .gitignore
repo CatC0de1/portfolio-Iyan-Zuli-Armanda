@@ -1,5 +1,7 @@
-.vercel/
-.vscode/
-dumpy/
-node_modules/
-public/
+/.vercel
+/.vscode
+/dumpy
+/node_modules
+/public
+
+.process.env
