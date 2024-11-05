@@ -10,6 +10,8 @@ node_modules/
 # Ignore specific folders inside public
 public/images/
 public/audio/
+public/games/
+public/css/tailwind/style.css
 
 # Ignore environment file
 process.env
