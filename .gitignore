@@ -1,0 +1,5 @@
+.vercel/
+.vscode/
+dumpy/
+node_modules/
+public/
