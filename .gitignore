@@ -4,4 +4,4 @@
 /node_modules
 /public
 
-.process.env
+process.env
