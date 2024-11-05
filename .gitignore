@@ -1,8 +1,15 @@
-\.vercel
-.vscode\
-node_modules
-/public/audio
-/public/images
-/public/games
+# Ignore .vscode folder
+.vscode/
 
+# Ignore .vercel folder
+.vercel/
+
+# Ignore node_modules folder
+node_modules/
+
+# Ignore specific folders inside public
+public/images/
+public/audio/
+
+# Ignore environment file
 process.env
