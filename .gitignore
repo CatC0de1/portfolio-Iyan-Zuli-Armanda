@@ -2,6 +2,8 @@
 /.vscode
 /dumpy
 /node_modules
-/public
+/public/audio
+/public/images
+/public/games
 
 process.env
