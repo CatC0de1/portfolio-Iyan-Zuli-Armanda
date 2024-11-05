@@ -1,5 +1,5 @@
-/.vercel
-.vscode/
+\.vercel
+.vscode\
 node_modules
 /public/audio
 /public/images
