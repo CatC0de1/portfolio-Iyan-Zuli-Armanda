@@ -1,6 +1,5 @@
 /.vercel
-/.vscode
-/dumpy
+.vscode/
 node_modules
 /public/audio
 /public/images
